@@ -1,0 +1,62 @@
+6.
+	BUBBLE SORT
+read n;
+bool sort = false;
+while (!sort)
+{
+	sortat = true;
+	for (i=0 to n-1)
+	 if (v[i]>v[i+1])
+	{	aux=v[i];
+		v[i]=v[i+1];
+		v[i+1]=aux;
+		sort = false;
+	}
+}
+
+
+
+	SELECTIE MINIMA
+
+read n;
+for (i=0 to n-1)
+{
+	pozmin=i;
+  for (j=i+1 to n)
+	if (a[j]<[pozmin])
+	pozmin=j;
+	if (pozmin=!i);
+	swap (a[i]; a[pozmin]);
+}	
+
+
+
+
+
+7. ALGORITM EUCLID
+
+{
+	Input n1, n2
+	If n1 > n2 Then
+    deimp = n1
+    imp = n2
+	Else
+    deimp = n2
+    imp = n1
+	EndIf
+    rest = imp
+    While rest != 0 Do
+	rest = deimp % imp
+	deimp = imp
+	imp = rest
+    EndWhile
+    Output deimp
+}
+
+
+Algoritmul lui Euclid presupune impartirea celor doua numere citite de la tastatura intre ele (cel mai mare este deimpartit, iar cel mai mic va fi impartitor).
+Cand deimpartitul nu mai este mai mare decat impartitorul, atunci cele doua variabile isi schimba rolul in impartire.
+Operatia de impartire se va repeta pana in momentul in care cele doua numere ajung egale.
+
+
+
