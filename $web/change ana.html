@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Tema.Laborator7</title>
+	<style>
+	body{
+			background-color: powderblue;
+		  }		
+			h5{color: #052513;
+			font-family:"Arial";
+			font-style:italic;}
+			h3{color:#20A157;
+			font-family:"Times New Roman";
+			font-style:bold;}
+			p{color: #3cb371;
+			font-family:"Lucida Console";}
+			table{
+			background-color: #DFA2EA ;
+			}
+			ul{background-color:#FFCCDD;}
+			table, tr, td, ul{border:2px solid red;}
+			tr:hover{background-color:#1A9C8B;}
+			img{
+			border: 2px solid blue;
+			border-radius: 10px;
+			width:150px;
+			display:block;
+			padding:2px;
+			margin:left;
+			opacity:0.8;
+			}
+	</style>
+	<script>
+	function veziViitor()
+	{
+		document.getElementById("numeProfil").innerHTML=" Software Development Nastase Ana-Maria";
+		var tabelEducatie= document.getElementById("tabEducatie"); //creeaza tabel
+		tabelEducatie.rows[0].cells[0].innerHTML="Absolventa UTCN";
+		tabelEducatie.rows[1].cells[0].innerHTML="Voluntar in Organizatia Studentilor Universitatea Tehnica";
+		tabelEducatie.rows[2].cells[0].innerHTML="Sefa de promotie ";
+
+
+		document.getElementById("pozaProfil").src="picture_2.jpg"; //afiseaza poza
+		document.body.style.backgroundColor="#A7204D "; //seteaza culoarea pentru background
+		var par=document.getElementsByTagName("p");
+		var i;
+		for(i=0;i<par.length;i++)
+		{
+		par[i].style.color="#11B0AB ";
+		}
+		document.getElementById("pozaProfil").style.opacity="0.9"; //seteaza opacitatea pentru poza 
+		document.getElementById("pozaProfil").style.border="6px"; 
+		}
+		function arVarst()
+		{
+		var azi = new Date;
+		var varstMea;
+
+		var anNasc = document.getElementById("varsta").innerHTML;
+		varstMea = azi.getFullYear() - parseInt(anNasc);           //calculeaza varsta actuala in functie de anul nasterii
+		document.getElementById("varsta").innerHTML = varstMea;
+		}
+	</script>
+
+
+</head>
+	</body>
+<h5 id="numeProfil">Nastase Ana-Maria </h5>
+<br />
+<p>nastaseana209@gmail.com</p>
+<br />
+<img id="pozaProfil"src="picture_1.jpg">
+<br />
+<p>“Educatia nu este pregatirea pentru viata, educatia este viata insasi.”</p>
+<br />
+<p onmouseover="arVarst()" id="varsta">2005</p>
+<button onclick="veziViitor()">Alta viata</button>
+<br />
+
+<h3>Lista discipline:</h3>
+<table id="tabEducatie">
+<tr><td>Analiza matematica</td></tr>
+<tr><td>Programare</td></tr>
+<tr><td>Circuite si componente pasive </td></tr>
+</table>
+<br />
+<h3>Hobby-uri:</h3>
+<ul>
+<li>Voluntariat</li>
+<li>Calatorii</li>
+<li>Citit</li>
+</ul>
+<a href="catalog.html">Inapoi</a>
+</body>
+</html>

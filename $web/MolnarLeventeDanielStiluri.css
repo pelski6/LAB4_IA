@@ -1,0 +1,36 @@
+table,th,td
+{
+    border:1px solid;
+    text-align: center;
+    display:inline-table;
+
+}
+body {
+    background-color: rgb(63, 66, 50);
+  }
+  h1 {
+    color: rgb(216, 213, 22);
+    font-style:italic;
+    font-size:30px;
+    text-align: center;
+  }
+  h2 {
+    color: rgb(134, 29, 29);
+    font-style:italic;
+    font-size:20px;
+    text-align: center;
+  }
+  h3 {
+    color: rgb(30, 200, 150);
+    font-style:italic;
+    font-size:15px;
+    text-align: center;
+  }
+  img {
+    border-radius: 10%;
+    width: 250px;
+    opacity: 0.4;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }

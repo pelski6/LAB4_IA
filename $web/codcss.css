@@ -1,0 +1,7 @@
+h2{color: palegoldenrod;}
+h1{color: paleturquoise;
+   text-align: center;
+   font-family: 'Arial', sans-serif;}
+body{background-color: hotpink;}
+table, th, td {
+    border: 3px solid black; border-collapse: collapse; border-radius: 50px; text-align: center; }

@@ -1,0 +1,38 @@
+body {
+	background-color: powderblue;
+}
+
+.poza img{
+	width: 700px;
+	height: 1200px;
+	margin: auto;
+  border: 3px solid green;
+  padding: 10px;
+  object-fit: contain;
+}
+
+.info
+{
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size:24px;
+	color:red;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+}
+
+.materii{
+	font-size:20px;
+	text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: wavy;
+}
+
+.hob 
+{
+	font-size: 20px;
+   text-decoration-color: green;
+   text-decoration-style: dashed;
+   border: 1px solid;
+   border-collapse: collapse;
+}
+

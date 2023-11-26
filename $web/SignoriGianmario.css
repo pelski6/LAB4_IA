@@ -1,0 +1,8 @@
+h2{text-decoration:underline;}
+h1{font-style: italic; font-family: 'Courier New', Courier, monospace; color: rgb(25, 150, 0);}
+img{border: 5px solid rgb(0, 100, 200);border-radius: 10%;}
+body{background-color: bisque;}
+.hobby{border:2px solid #000000; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: larger; font-style:oblique;}
+.links{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-decoration: underline; font-style: italic;}
+.quote{font-family: Arial, Helvetica, sans-serif; font-size: x-large;}
+.datepers{text-decoration:underline; font-family: Verdana, Geneva, Tahoma, sans-serif;}
